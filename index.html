@@ -614,7 +614,7 @@
         <div class="stats-grid">
           <div class="stat-box">
             <div class="stat-label">Tổng lượt truy cập</div>
-            <div class="stat-value" id="totalCountDisplay">1,048</div>
+            <div class="stat-value" id="totalCountDisplay">0</div>
             <div class="stat-sub">+1 lượt khi mở tra cứu</div>
           </div>
           <div class="stat-box">
@@ -725,7 +725,7 @@
 
   <script>
     const NOTEBOOK_URL = "https://notebook.google.com/notebook/0a3d16f6-02b0-425e-a095-39c408fa6439";
-    const BASE_GLOBAL_COUNT = 1048;
+    const BASE_GLOBAL_COUNT = 0;
 
     function initCounters() {
       let localVisits = parseInt(localStorage.getItem('bvub_dd_local_visits') || '0', 10) + 1;
